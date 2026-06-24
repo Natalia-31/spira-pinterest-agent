@@ -1,0 +1,43 @@
+{
+  "name": "spira-pinterest-agent",
+  "version": "0.1.0",
+  "description": "Pinterest Agent for SPIRA brand — automated pin creation with SEO strategy",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "publish:pin": "tsx src/tools/publish-pin.ts",
+    "start": "node dist/index.js",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "pinterest",
+    "spiра",
+    "agent",
+    "seo",
+    "automation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@napi-rs/canvas": "^1.0.0",
+    "axios": "^1.7.0",
+    "chokidar": "^3.6.0",
+    "dotenv": "^16.4.0",
+    "openai": "^4.0.0",
+    "sharp": "^0.33.0",
+    "uuid": "^14.0.1",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/sharp": "^0.32.0",
+    "@types/uuid": "^10.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.5.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime/generated content
+content/analytics/*
+content/processed/*
+content/published/*
+content/errors/*
+content/new/*
+!content/**/.gitkeep
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Windows special files
+nul
+
+# Generated publishing plans
+content/publishing/*
+!content/publishing/.gitkeep
