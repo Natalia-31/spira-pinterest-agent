@@ -57,6 +57,7 @@ content/
 
 - `public/index.html` — главная страница
 - `public/privacy-policy.html` — Privacy Policy
+- `public/spira-privacy-policy.html` — SPIRA Privacy Policy с названием компании в URL
 
 ### Вариант 1: публикация из папки `public` через ветку `gh-pages`
 
@@ -79,6 +80,7 @@ git subtree push --prefix public origin gh-pages
 
 - `https://<github-username>.github.io/<repository-name>/`
 - `https://<github-username>.github.io/<repository-name>/privacy-policy.html`
+- `https://<github-username>.github.io/<repository-name>/spira-privacy-policy.html`
 
 ### Вариант 2: публикация из корня репозитория
 
